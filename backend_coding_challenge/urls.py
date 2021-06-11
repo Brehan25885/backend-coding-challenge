@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from backend_coding_challenge.trending_repos import views
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('languages-repos/', views.LanguageReposView.as_view(), name='languages-repo'),
 
 ]
