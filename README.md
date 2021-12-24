@@ -3,8 +3,7 @@
 
 ```bash
 $ # Get the code
-$ git clone https://gitlab.com/brehan/portal.git
-$ cd portal
+$ git clone https://github.com/Brehan25885/backend-coding-challenge.git
 
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
